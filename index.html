@@ -1,15 +1,47 @@
 <!doctype html>
-<head>
-	<meta charset="utf-8">
-	<title>Zip Code</title>
-	<meta name="description" content="A frontend dev aptitude test by Deep Space Robots.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
-</head>
-<body>
-	<p>Testing local server</p>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Zip Code</title>
+		<meta name="description" content="A frontend dev aptitude test by Deep Space Robots.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<script defer src="script.js"></script>
+	</head>
+
+	<body>
+		<div class="fade-top">
+			<div class="fade-right">
+				<div class="fade-bottom">
+					<div class="fade-left">
+						<div class="page-container">
+							<div class="title-container">
+								<h1 class="page-title">
+									<span class="organization-name">DeepSpaceRobots</span>	
+									Zip Code Finder
+								</h1>
+								<h2 class="page-subtitle">Find more information about your zip code!</h2>
+							</div>
+							<div class="display-container">
+								<form class="form-container" method="GET">
+									<input 
+										required 
+										class="form-input"
+										id="zip-code" 
+										name="zip-code"
+										type="text"
+										placeholder="Enter a zip code..."
+										min="00501" 
+										max="99950"
+									>
+									<input class="form-submit" type="submit" value="Submit" onClick="submitClicked()">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</body>
 </html>
 
